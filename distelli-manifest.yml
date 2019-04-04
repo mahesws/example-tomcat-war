@@ -46,7 +46,7 @@ mshanmu3/example-tomcat-war:
     - cd /usr/local
     - sudo curl -O http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.2-bin.tar.gz
     - sudo tar zxvf apache-maven-3.2.2-bin.tar.gz 
-    - mvn -version
+    - ./apache-maven-3.2.2/bin/mvn -version
 
   PostInstall:
     #- mvn package
