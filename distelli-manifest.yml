@@ -44,8 +44,8 @@ mshanmu3/example-tomcat-war:
     - sudo apt-get -y install oracle-java8-set-default
     - sudo apt-get -y install tomcat8
     - cd /usr/local
-    - sudo curl -O http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.1-bin.tar.gz
-    - sudo tar zxvf apache-maven-3.2.1-bin.tar.gz 
+    - sudo curl -O http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.2-bin.tar.gz
+    - sudo tar zxvf apache-maven-3.2.2-bin.tar.gz 
     - mvn -version
 
   PostInstall:
