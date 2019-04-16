@@ -2,7 +2,7 @@ mshanmu3/example-tomcat-war:
 
   Env:
     # Set the below enviornment variables for your environment
-    - CATALINA_HOME: "/usr/local/tomcat"
+    #- CATALINA_HOME: "/usr/local/tomcat"
     - JAVA_HOME: "/usr/lib/jvm/java-8-oracle"
     # The port number below is only for reference. Set it to the
     #  port number of your tomcat server.
