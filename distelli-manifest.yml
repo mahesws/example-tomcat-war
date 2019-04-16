@@ -59,6 +59,6 @@ mshanmu3/example-tomcat-war:
     # restart tomcat with the command below.
     # Restart Tomcat - You might have to use a different command
     # depending on how tomcat is installed
+    #.
     - sudo service tomcat8 restart
     - 'echo "You can validate the install by pointing your browser at http://$publicip:$PORT/SimpleTomcatWebApp"'
-    
