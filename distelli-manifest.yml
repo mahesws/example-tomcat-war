@@ -54,8 +54,9 @@ mshanmu3/example-tomcat-war:
     - publicip=$(curl -s ident.me)
     - echo "Public IP $publicip"
     - echo "$CATALINA_HOME"
-    - 'sudo mkdir -p $CATALINA_HOME/webapps/'
-    - 'sudo cp -f ./target/*.war $CATALINA_HOME/webapps/'
+    #- 'sudo mkdir -p $CATALINA_HOME/webapps/'
+    #- 'sudo cp -f ./target/*.war $CATALINA_HOME/webapps/'
+    - 'sudo cp -f ./target/*.war /var/lib/tomcat8/webapps'
     # By default tomcat detects if the war file has changed and
     # automatically extracts it. If restart is required you can
     # restart tomcat with the command below.
