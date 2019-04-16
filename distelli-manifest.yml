@@ -43,6 +43,7 @@ mshanmu3/example-tomcat-war:
     - sudo apt-get -y install oracle-java8-installer
     - sudo apt-get -y install oracle-java8-set-default
     - sudo apt-get -y install tomcat8
+    - echo $CATALINA_HOME
     - cd /usr/local
     - sudo curl -O http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.2-bin.tar.gz
     - sudo tar zxvf apache-maven-3.2.2-bin.tar.gz 
@@ -52,6 +53,7 @@ mshanmu3/example-tomcat-war:
     #- mvn package
     - publicip=$(curl -s ident.me)
     - echo "Public IP $publicip"
+    - echo $CATALINA_HOME
     - 'sudo mkdir -p $CATALINA_HOME/webapps/'
     - 'sudo cp -f ./target/*.war $CATALINA_HOME/webapps/'
     # By default tomcat detects if the war file has changed and
